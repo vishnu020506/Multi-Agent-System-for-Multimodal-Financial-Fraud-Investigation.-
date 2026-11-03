@@ -1,0 +1,6 @@
+{
+  "name": "Multimodal Financial Fraud Investigation System",
+  "description": "Multi-agent system for multimodal financial fraud detection analyzing transactions, OCR documents, NLP communications, and entity graph networks with explainable evidence correlation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

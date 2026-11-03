@@ -1,0 +1,109 @@
+{
+  "transactions": [
+    {
+      "id": "TXN-FB-2026-0604-001",
+      "timestamp": "2026-06-04T00:00:00.000Z",
+      "dateString": "04/06/2026",
+      "documentCategory": "BANK_REMITTANCE_COUNTERFOIL",
+      "activityType": "RTGS (Real-Time Gross Settlement) / NEFT Interbank Fund Transfer",
+      "originatingBank": {
+        "bankName": "Federal Bank (The Federal Bank Limited)",
+        "tagline": "YOUR PERFECT BANKING PARTNER",
+        "branch": "RCM",
+        "referenceNumber": "FDRLRS2026060400",
+        "scrollNumber": "225194",
+        "voucherType": "Counterfoil (For Customer) / ग्राहक पावती / కస్టమర్ రసీదు"
+      },
+      "beneficiary": {
+        "name": "P. Shyam Prasad",
+        "accountNumber": "50100034451811",
+        "bankName": "HDFC Bank",
+        "ifscCode": "HDFC0001041",
+        "accountType": "Savings / Current (14-Digit Format)"
+      },
+      "financials": {
+        "transferAmount": 1100000,
+        "amountFormatted": "₹11,00,000.00 INR",
+        "amountInWords": "Eleven Lakh Rupees Only",
+        "currency": "INR",
+        "charges": "Standard RTGS Tariff",
+        "totalAmountDebited": 1100000
+      },
+      "forensicAuthentication": {
+        "stampDetected": true,
+        "stampDetails": "Federal Bank official branch violet-ink rubber stamp placed at bottom-left counterfoil corner",
+        "cashierSignature": "Verified (Blue ballpoint ink signature on Cashier line)",
+        "officerSignature": "Verified (Blue ballpoint ink signature of Assistant Manager directly crossing the official bank seal)",
+        "languagesPresent": [
+          "English",
+          "Hindi (ग्राहक पावती, लाभार्थी का नाम, कुल राशि)",
+          "Telugu (కస్టమర్ రసీదు, లబ్ధిదారుని పేరు, మొత్తం)"
+        ],
+        "imageArtifactPath": "/uploads/federal_bank_rtgs_counterfoil.jpg"
+      },
+      "regulatoryCompliance": {
+        "pmlaStatus": "High-Value Transaction (> ₹10,00,000 PMLA/FIU-IND CTR Reporting Threshold)",
+        "settlementChannel": "Reserve Bank of India (RBI) RTGS Gross Settlement",
+        "auditVerdict": "AUTHENTIC PHYSICAL BANK COUNTERFOIL"
+      }
+    }
+  ],
+  "idCards": [
+    {
+      "id": "ID-MRU-2411CS040128",
+      "savedAt": "2026-10-22T09:18:47.868Z",
+      "status": "AUTHENTIC_REAL",
+      "documentCategory": "UNIVERSITY_STUDENT_ID_CARD",
+      "institution": {
+        "name": "Malla Reddy University",
+        "location": "Maisammaguda, Dulapally, Hyderabad, Telangana 500100",
+        "type": "State Private University / UGC Recognized",
+        "authorizedSignatory": "Vice Chancellor (G. Reddy)",
+        "signatureStatus": "VERIFIED_GENUINE"
+      },
+      "studentDetails": {
+        "fullName": "PEDDAREDDY GARI VISHNUVARDHAN REDDY",
+        "rollNumber": "2411CS040128",
+        "school": "SoE (School of Engineering)",
+        "branch": "B.Tech.-CS",
+        "batch": "2024-2028",
+        "dateOfBirth": "05.02.2006",
+        "parentContact": "9989702024",
+        "bloodGroup": "O+",
+        "authorizedSignatory": "Vice Chancellor (G. Reddy)",
+        "barcodeData": "2411CS040128"
+      },
+      "logoForensics": {
+        "logoChecked": true,
+        "verificationStatus": "AUTHENTIC_ORIGINAL",
+        "institutionName": "Malla Reddy University",
+        "emblemDescription": "Graduation Mortarboard Cap atop Classical \"M\" Temple Columns with Laurel Foliage Wreath",
+        "laurelWreathLeaves": 7,
+        "colorHexMatches": [
+          {
+            "name": "Primary University Navy",
+            "hex": "#1E3A8A",
+            "matchConfidence": 0.99
+          },
+          {
+            "name": "Accent Academic Orange",
+            "hex": "#EA580C",
+            "matchConfidence": 0.99
+          }
+        ],
+        "tamperingDetected": false,
+        "pixelIntegrityNotes": "Zero pixel haloing, zero clone stamp boundaries, vector typography kerning 100% genuine."
+      },
+      "physicalCardSecurity": {
+        "cardMaterial": "Laminated PVC Card",
+        "borderDecoration": "Dual Navy Blue and Orange Vertical Accent Stripes on Left Flange",
+        "barcodeType": "Code 128 Linear Barcode",
+        "barcodeContent": "2411CS040128",
+        "signatureInk": "Green Wet-Ink Signature over Vice Chancellor Designation",
+        "auditVerdict": "AUTHENTIC GENUINE REGULATED STUDENT CREDENTIAL (REAL)",
+        "imageArtifactPath": "/uploads/malla_reddy_student_id.jpg"
+      }
+    }
+  ],
+  "documents": []
+}
